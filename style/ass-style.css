@@ -1,3 +1,12 @@
+
+.sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 .logo{
     font-weight:99px;
     font-size: 34px
@@ -13,8 +22,23 @@
 button{
     background-color:#4e47ff;
     border-radius:5px;
-    height: 24px;
-    font-weight: bold;
+    height: 48px;
+    font-weight: 132px;
      color: white;
+     border: none;
+    
 
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:0 150px;
+    
+   
+}
+.back-bg{
+background-image: url('/Hero-bg.png')
+
+}
+
+
