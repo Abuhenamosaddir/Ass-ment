@@ -7,6 +7,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .logo{
     font-weight:99px;
     font-size: 34px
@@ -19,13 +20,14 @@
 
 
 }
-button{
+.btn-1{
     background-color:#4e47ff;
     border-radius:5px;
     height: 48px;
-    font-weight: 132px;
+    font-weight: bold;
      color: white;
      border: none;
+     padding: 12px 36px;
     
 
 }
@@ -33,12 +35,27 @@ nav{
     display: flex;
     justify-content: space-between;
     margin:0 150px;
-    
+    padding: 50px;
    
+}
+
+
+.banner{
+    text-align: center;
+    margin:  267px 152px ;
+    height: 309px;
+    font-weight: 905px;
 }
 .back-bg{
 background-image: url('/Hero-bg.png')
-
 }
 
+.ban{
+    font-weight: 905px;
+    font-size: 65px;
+    color: #252432;
+    margin: 0 auto;
+    width: 100%;
+    height: 152px;
 
+}
