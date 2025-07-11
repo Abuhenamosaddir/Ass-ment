@@ -87,7 +87,8 @@ main{
 }
 
 .ac-p{
-    gap: 23px;
+ align-items: center;
+
 
 }
  img{
@@ -136,3 +137,59 @@ section .user-section{
     padding: none;
     
 }
+.section-title{
+    font-size: 97px;
+    font-weight: bold;
+    align-items: center;
+    gap: auto;
+    padding: 15px;
+    align-items: left;
+}
+
+.colum{
+    text-align:left center;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-colum{
+    width: 100%;
+     display: flex;
+     gap: 80px;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding: 80px 40px;
+
+}
+    footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 10px;
+    background-color: #D6DDED;
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 35px;
+    border: 30px; 
+    color: #D6DDED; 
+    border: #fffdfd;
+    gap: 19px;
+    box-shadow: 15px;
+    box-sizing: content-box;
+
+}
+    section{
+        padding: 15px;
+        margin: auto;
+
+    }
+    input [type="text"]{
+        box-shadow: 15px;
+    }
+    .container{
+        padding: 30px;
+        border-radius: 12px;
+       border: 46px;
+    }
