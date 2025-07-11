@@ -97,3 +97,42 @@ main{
     align-items: right;
 
 }
+.title{
+    display: flex;
+    justify-content: space-around;
+    padding: none;
+    margin: none;
+   
+    
+}
+.user-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    text-align:center ;
+    padding: 60px;
+}
+.header{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+section .user-section{
+    background-color: #ada2a231;
+    border-radius: 24px;
+    box-sizing:border-box;
+    gap: 10px;
+   
+
+}
+.sub-title{
+    color: #474747;
+    font-size: 20px;
+   
+}
+.user-section-2 .sub-title{
+    margin-bottom: 10px;
+    padding: none;
+    
+}
