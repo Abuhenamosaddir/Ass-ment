@@ -153,15 +153,14 @@ footer{
     padding: 130px 230px;
     display: flex;
     gap: 100px;
+      max-width: 1140px;
+    margin: 0 auto;
 }
 .footer-colum{
     width: 100%;
      display: flex;
-     gap: 80px;
-     align-items: center;
-     justify-content: center;
-     flex-wrap: wrap;
-     padding: 80px 40px;
+     justify-content: space-between;
+     
 
 }
     footer input[type="text"], footer input[type="email"], footer textarea{
@@ -173,7 +172,7 @@ footer{
     padding: 15px 20px;
     margin-bottom: 35px;
     border: 30px; 
-    color: #D6DDED; 
+    color: #000000; 
     border: #fffdfd;
     gap: 19px;
     box-shadow: 15px;
@@ -194,5 +193,27 @@ footer{
        border: 46px;
     }
 
-    *jfnfnn---Small -section
+.logo2{
+    color: #4e47ff;
+    font-size: 100px;
+    text-align: center;
+    align-items: center;
 
+}
+.small{
+    color: #8987A1;
+    text-align: center;
+    gap: 20px;
+
+}
+.description{
+    display: flex;
+    align-items: center;
+    gap: 88px;
+}
+.last-option{
+    align-items: center;
+    border: 12px;
+    padding: 75px 255px;
+
+}
