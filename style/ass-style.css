@@ -101,8 +101,8 @@ main{
 .title{
     display: flex;
     justify-content: space-around;
-    padding: none;
-    margin: none;
+    padding: 45px 0 45px 0;
+    margin: 25px;
    
     
 }
@@ -130,6 +130,8 @@ section .user-section{
 .sub-title{
     color: #474747;
     font-size: 20px;
+    padding: 45px 0 45px 0;
+    margin: none;
    
 }
 .user-section-2 .sub-title{
@@ -160,6 +162,8 @@ footer{
     width: 100%;
      display: flex;
      justify-content: space-between;
+     gap: 19px;
+
      
 
 }
@@ -170,13 +174,14 @@ footer{
     display: block;
     width: 100%;
     padding: 15px 20px;
-    margin-bottom: 35px;
     border: 30px; 
     color: #000000; 
-    border: #fffdfd;
+    border: #000000;
     gap: 19px;
-    box-shadow: 15px;
+    box-shadow: 10px;
     box-sizing: content-box;
+    font-size: 15px;
+    font-weight: 35px;
 
 }
     section{
@@ -191,6 +196,7 @@ footer{
         padding: 30px;
         border-radius: 12px;
        border: 46px;
+      
     }
 
 .logo2{
